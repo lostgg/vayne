@@ -1,0 +1,29 @@
+
+debug/*
+x64/*
+.vs/*
+ipch/*
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.tlog
+*.opendb
+
+# Compiled Dynamic libraries
+*.so
+*.sdf
+*.ncb
+*.suo
+*.pch
+*.pdb
+*.idb
+*.exp
+*.map
+*.db
+
+# Compiled Static libraries
+*.lai
+*.la
