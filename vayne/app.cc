@@ -37,7 +37,7 @@ std::size_t ServerApp::run() {
 	std::shared_ptr<LogicHandler> plogic(new LogicHandler(logic_router_ptr));
 
 	// 运行网络IO服务
-	return pnetwork->run();
+	return pnetwork->run("127.0.0.1",19900);
 }
 
 int ServerApp::asyncall_logic(const int hid, const char *message, const int size) {

@@ -34,6 +34,9 @@
     <Filter Include="protocol\app">
       <UniqueIdentifier>{c2b8a63f-87b2-422e-9352-68427eaaf77e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{27f9cd11-515e-4d47-b50d-8d4bac804fb4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cc">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="app.cc">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="network\timer_count.cc">
+      <Filter>network</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +76,21 @@
     </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\package.hpp">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\app\connect_proto_.hpp">
+      <Filter>protocol\app</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\header.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="network\timer_count.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol\net\inside_proto.h">
+      <Filter>protocol\net</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

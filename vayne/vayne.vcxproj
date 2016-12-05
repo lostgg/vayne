@@ -159,14 +159,20 @@
     <ClCompile Include="network\network_handler.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="network\timer_count.cc" />
     <ClCompile Include="router\router.cc">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="app.h" />
+    <ClInclude Include="base\package.hpp" />
     <ClInclude Include="logic\logic_handler.h" />
     <ClInclude Include="network\network_handler.h" />
+    <ClInclude Include="network\timer_count.h" />
+    <ClInclude Include="protocol\app\connect_proto_.hpp" />
+    <ClInclude Include="protocol\header.h" />
+    <ClInclude Include="protocol\net\inside_proto.h" />
     <ClInclude Include="protocol\protocol_id.h" />
     <ClInclude Include="router\router.h" />
     <ClInclude Include="stdafx.h" />
